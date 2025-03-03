@@ -1,0 +1,17 @@
+{
+  "pluginAlias": "Crestron Plugin",
+  "pluginType": "platform",
+  "singular": true,
+  "strictValidation": false,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "title": "Crestron",
+        "type": "string",
+        "required": true,
+        "default": "Crestron"
+      }
+    }
+  }
+}
